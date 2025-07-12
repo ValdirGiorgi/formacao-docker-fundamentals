@@ -1,8 +1,6 @@
-version: '3.9'
-
 services:
   apache:
-    image: httpd:lastest
+    image: httpd:latest
     container_name: my-apache-web
     ports:
       - "80:80"
